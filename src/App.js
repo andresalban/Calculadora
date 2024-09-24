@@ -27,7 +27,7 @@ function App() {
         // Add the code for the plus function
         e.preventDefault();
         const inputValue = inputRef.current.value;
-        const newResult=result-Number(inputValue);
+        const newResult=result*Number(inputValue);
         setResult(newResult);
 
     };
@@ -36,7 +36,7 @@ function App() {
         // Add the code for the divide function
         e.preventDefault();
         const inputValue = inputRef.current.value;
-        const newResult=result-Number(inputValue);
+        const newResult=result/Number(inputValue);
         setResult(newResult);
     };
 
